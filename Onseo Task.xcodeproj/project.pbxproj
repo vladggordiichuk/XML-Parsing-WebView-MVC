@@ -10,9 +10,13 @@
 		7FC1A3AD24BF59E800D4F927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1A3AC24BF59E800D4F927 /* AppDelegate.swift */; };
 		7FC1A3AF24BF59E800D4F927 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1A3AE24BF59E800D4F927 /* SceneDelegate.swift */; };
 		7FC1A3B124BF59E800D4F927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1A3B024BF59E800D4F927 /* ViewController.swift */; };
-		7FC1A3B424BF59E800D4F927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC1A3B224BF59E800D4F927 /* Main.storyboard */; };
 		7FC1A3B624BF59ED00D4F927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC1A3B524BF59ED00D4F927 /* Assets.xcassets */; };
 		7FC1A3B924BF59ED00D4F927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC1A3B724BF59ED00D4F927 /* LaunchScreen.storyboard */; };
+		7FC1A3C124BF67EF00D4F927 /* LinkXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1A3C024BF67EF00D4F927 /* LinkXMLParser.swift */; };
+		7FC1A3C324BF687300D4F927 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1A3C224BF687300D4F927 /* App.swift */; };
+		7FC1A3CA24BF7ECD00D4F927 /* ViewController+WebKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1A3C924BF7ECD00D4F927 /* ViewController+WebKit.swift */; };
+		7FC1A3CC24BF7F2300D4F927 /* ViewController+XML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1A3CB24BF7F2300D4F927 /* ViewController+XML.swift */; };
+		7FC1A3CE24BF7F5000D4F927 /* ViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1A3CD24BF7F5000D4F927 /* ViewController+UI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,14 @@
 		7FC1A3AC24BF59E800D4F927 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC1A3AE24BF59E800D4F927 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7FC1A3B024BF59E800D4F927 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7FC1A3B324BF59E800D4F927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FC1A3B524BF59ED00D4F927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FC1A3B824BF59ED00D4F927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FC1A3BA24BF59ED00D4F927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC1A3C024BF67EF00D4F927 /* LinkXMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkXMLParser.swift; sourceTree = "<group>"; };
+		7FC1A3C224BF687300D4F927 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		7FC1A3C924BF7ECD00D4F927 /* ViewController+WebKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+WebKit.swift"; sourceTree = "<group>"; };
+		7FC1A3CB24BF7F2300D4F927 /* ViewController+XML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+XML.swift"; sourceTree = "<group>"; };
+		7FC1A3CD24BF7F5000D4F927 /* ViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UI.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,8 @@
 			isa = PBXGroup;
 			children = (
 				7FC1A3AB24BF59E800D4F927 /* Onseo Task */,
+				7FC1A3C724BF7DF200D4F927 /* Global */,
+				7FC1A3C424BF7D9000D4F927 /* Supporting Files */,
 				7FC1A3AA24BF59E800D4F927 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +66,57 @@
 		7FC1A3AB24BF59E800D4F927 /* Onseo Task */ = {
 			isa = PBXGroup;
 			children = (
-				7FC1A3AC24BF59E800D4F927 /* AppDelegate.swift */,
-				7FC1A3AE24BF59E800D4F927 /* SceneDelegate.swift */,
-				7FC1A3B024BF59E800D4F927 /* ViewController.swift */,
-				7FC1A3B224BF59E800D4F927 /* Main.storyboard */,
-				7FC1A3B524BF59ED00D4F927 /* Assets.xcassets */,
-				7FC1A3B724BF59ED00D4F927 /* LaunchScreen.storyboard */,
-				7FC1A3BA24BF59ED00D4F927 /* Info.plist */,
+				7FC1A3C524BF7DCE00D4F927 /* Models */,
+				7FC1A3C624BF7DD500D4F927 /* View Controller */,
 			);
 			path = "Onseo Task";
+			sourceTree = "<group>";
+		};
+		7FC1A3C424BF7D9000D4F927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1A3AC24BF59E800D4F927 /* AppDelegate.swift */,
+				7FC1A3AE24BF59E800D4F927 /* SceneDelegate.swift */,
+				7FC1A3B724BF59ED00D4F927 /* LaunchScreen.storyboard */,
+				7FC1A3BA24BF59ED00D4F927 /* Info.plist */,
+				7FC1A3B524BF59ED00D4F927 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FC1A3C524BF7DCE00D4F927 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1A3C224BF687300D4F927 /* App.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7FC1A3C624BF7DD500D4F927 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1A3B024BF59E800D4F927 /* ViewController.swift */,
+				7FC1A3CD24BF7F5000D4F927 /* ViewController+UI.swift */,
+				7FC1A3CB24BF7F2300D4F927 /* ViewController+XML.swift */,
+				7FC1A3C924BF7ECD00D4F927 /* ViewController+WebKit.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		7FC1A3C724BF7DF200D4F927 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1A3C824BF7DFC00D4F927 /* Modules */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		7FC1A3C824BF7DFC00D4F927 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1A3C024BF67EF00D4F927 /* LinkXMLParser.swift */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +179,6 @@
 			files = (
 				7FC1A3B924BF59ED00D4F927 /* LaunchScreen.storyboard in Resources */,
 				7FC1A3B624BF59ED00D4F927 /* Assets.xcassets in Resources */,
-				7FC1A3B424BF59E800D4F927 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FC1A3CC24BF7F2300D4F927 /* ViewController+XML.swift in Sources */,
+				7FC1A3CA24BF7ECD00D4F927 /* ViewController+WebKit.swift in Sources */,
+				7FC1A3CE24BF7F5000D4F927 /* ViewController+UI.swift in Sources */,
 				7FC1A3B124BF59E800D4F927 /* ViewController.swift in Sources */,
 				7FC1A3AD24BF59E800D4F927 /* AppDelegate.swift in Sources */,
+				7FC1A3C124BF67EF00D4F927 /* LinkXMLParser.swift in Sources */,
+				7FC1A3C324BF687300D4F927 /* App.swift in Sources */,
 				7FC1A3AF24BF59E800D4F927 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +203,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7FC1A3B224BF59E800D4F927 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7FC1A3B324BF59E800D4F927 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7FC1A3B724BF59ED00D4F927 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BL3998789E;
-				INFOPLIST_FILE = "Onseo Task/Info.plist";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.Onseo-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,7 +352,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BL3998789E;
-				INFOPLIST_FILE = "Onseo Task/Info.plist";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.Onseo-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
